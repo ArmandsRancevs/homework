@@ -11,6 +11,8 @@ from datetime import datetime
 from configparser import ConfigParser
 from mysql.connector import Error
 
+#Relse 0.2.0 comment!
+
 # Loading logging configuration
 with open('./log_worker.yaml', 'r') as stream:
 	log_config = yaml.safe_load(stream)
